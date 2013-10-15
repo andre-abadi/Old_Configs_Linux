@@ -1,1 +1,11 @@
-/etc/fstab
+# 
+# /etc/fstab: static file system information
+#
+# <file system>				<dir>			<type>	<options>							<dump>	<pass>
+
+/dev/mmcblk0p1  			/boot           	vfat    defaults        						0       0
+
+# https://wiki.archlinux.org/index.php/NFS
+
+192.168.1.150:/volume1/Downloads	/media/Downloads	nfs	rsize=8192,wsize=8192,timeo=14,intr,_netdev			0	0
+192.168.1.150:/volume1/TV\040Shows	/media/TV\040Shows	nfs	rsize=8192,wsize=8192,timeo=14,intr,_netdev			0	0
