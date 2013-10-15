@@ -1,4 +1,2 @@
-.myconfigs
-==========
-
-This is a backup of the owner's various personalised GNU/Linux configuration files.
+Live set of owner's linux configuration files
+--------------
